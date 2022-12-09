@@ -26,4 +26,9 @@ class IntroductionController extends Controller
         return view('introduction3');
     }
 
+    public function page4()
+    {
+        return view('introduction4');
+    }
+
 }
