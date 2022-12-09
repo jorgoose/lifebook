@@ -21,4 +21,4 @@ Route::get('/introduction', 'App\Http\Controllers\IntroductionController@index')
 Route::get('/introduction/1', 'App\Http\Controllers\IntroductionController@page1');
 Route::get('/introduction/2', 'App\Http\Controllers\IntroductionController@page2');
 Route::get('/introduction/3', 'App\Http\Controllers\IntroductionController@page3');
-Route::get('/introduction/4', 'App\Http\Controllers\IntroductionController@page4');
+Route::get('/life-so-far', 'App\Http\Controllers\MyLifeController@index');

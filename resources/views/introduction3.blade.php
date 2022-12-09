@@ -103,13 +103,13 @@
             </table>
         </div>
         <div class="container text-center align-middle pb-20">
-            <button id="goToIntro4" class="bg-gray-800 hover:bg-blue-700 text-white font-bold py-2 px-8 rounded-full">
+            <button id="goToLifeSoFar" class="bg-gray-800 hover:bg-blue-700 text-white font-bold py-2 px-8 rounded-full">
                     Next
             </button>
 
             <script type="text/javascript">
-                document.getElementById("goToIntro4").onclick = function () {
-                    location.href = "/introduction/4";
+                document.getElementById("goToLifeSoFar").onclick = function () {
+                    location.href = "/life-so-far";
                 };
             </script>
         </div>
