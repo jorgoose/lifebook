@@ -24,16 +24,17 @@
             </div>
         </nav>
         <div class="container text-center align-middle py-10">
-            <p>TODO</p>
+            <h1 class="text-4xl font-bold py-10">My Life So Far</h1>
+            <p>Placeholder text (paragraph insertion here)</p>
         </div>
         <div class="container text-center align-middle pb-20">
-            <button id="goToIntro2" class="bg-gray-800 hover:bg-blue-700 text-white font-bold py-2 px-8 rounded-full">
+            <button id="goToIntro5" class="bg-gray-800 hover:bg-blue-700 text-white font-bold py-2 px-8 rounded-full">
                     Next
             </button>
 
             <script type="text/javascript">
-                document.getElementById("goToIntro2").onclick = function () {
-                    location.href = "/introduction/2";
+                document.getElementById("goToIntro5").onclick = function () {
+                    location.href = "/introduction/5";
                 };
             </script>
         </div>
