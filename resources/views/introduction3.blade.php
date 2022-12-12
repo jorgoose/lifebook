@@ -82,22 +82,82 @@
                 </tr>
                 <tr>
                     <td class="border px-4 py-4">Midlife (35-50)</td>
-                    <td class="border px-4 py-4"></td>
-                    <td class="border px-4 py-4"></td>
+                    <td class="border px-4 py-4">Contemplation</td>
+                    <td class="border px-4 py-4">After many years in young adulthood of following society’s scripts for creating a life, people in midlife often take a break from worldly responsibilities to reflect upon the deeper meaning of their lives, the better to forge ahead with new understanding. This element of contemplation represents an important resource that we can all draw upon to deepen and enrich our lives at any age.</td>
                 </tr>
                 <tr>
                     <td class="border px-4 py-4">Mature Adulthood (50-80)</td>
-                    <td class="border px-4 py-4"></td>
-                    <td class="border px-4 py-4"></td>
+                    <td class="border px-4 py-4">Benevolence</td>
+                    <td class="border px-4 py-4">Those in mature adulthood have raised families, established themselves in their work life, and become contributors to the betterment of society through volunteerism, mentorships, and other forms of philanthropy. All of humanity benefits from their benevolence. Moreover, we all can learn from their example to give more of ourselves to others.</td>
                 </tr>
                 <tr>
                     <td class="border px-4 py-4">Late Adulthood (80+)</td>
-                    <td class="border px-4 py-4"></td>
-                    <td class="border px-4 py-4"></td>
+                    <td class="border px-4 py-4">Wisdom</td>
+                    <td class="border px-4 py-4">Those with long lives have acquired a rich repository of experiences that they can use to help guide others. Elders thus represent the source of wisdom that exists in each of us, helping us to avoid the mistakes of the past while reaping the benefits of life’s lessons.</td>
                 </tr>
                 <tr>
                     <td class="border px-4 py-4">Death & Dying</td>
+                    <td class="border px-4 py-4">Life</td>
+                    <td class="border px-4 py-4">Those in our lives who are dying, or who have died, teach us about the value of living. They remind us not to take our lives for granted, but to live each moment of life to its fullest, and to remember that our own small lives form a part of a greater whole.</td>
+                </tr>
+            </table>
+            <h2 class="font-bold py-10">Five life stage perspective suggested by Jon Acuff (Acuff, 2013).</h2>
+            <table class="table-auto border-2 mx-20 border-gray-800 bg-gray-100 text-gray-700 rounded-lg">
+                <tr class="font-bold text-gray-800">
+                    <td class="border px-4 py-4 bg-gray-300">Age</td>
+                    <td class="border px-4 py-4 bg-gray-300">Life Stage</td>
+                    <td class="border px-4 py-4 bg-gray-300">Description</td>
+                </tr>
+                <tr>
+                    <td class="border px-4 py-4">&#60;20 - 20s</td>
+                    <td class="border px-4 py-4">Learning</td>
+                    <td class="border px-4 py-4">Actively seeking my life’s vocational trajectory.</td>
+                </tr>
+                <tr>
+                    <td class="border px-4 py-4">30s</td>
+                    <td class="border px-4 py-4">Editing</td>
+                    <td class="border px-4 py-4">Adding and deleting responsibilities in my life as the understanding of my vocation grows.</td>
+                </tr>
+                <tr>
+                    <td class="border px-4 py-4">40s</td>
+                    <td class="border px-4 py-4">Mastering</td>
+                    <td class="border px-4 py-4">Knowing my life vocation and getting better at it.</td>
+                </tr>
+                <tr>
+                    <td class="border px-4 py-4">50s</td>
+                    <td class="border px-4 py-4">Harvesting</td>
+                    <td class="border px-4 py-4">Reaping the benefits of a certain degree of mastery in my vocation.</td>
+                </tr>
+                <tr>
+                    <td class="border px-4 py-4">60s - 70+</td>
+                    <td class="border px-4 py-4">Guiding</td>
+                    <td class="border px-4 py-4">Helping others who are on a similar vocational journey.</td>
+            </table>
+            <h2 class="font-bold py-10">Four life stage perspective suggested by Bob Buford (Buford, 2016)</h2>
+            <table>
+                <tr class="font-bold text-gray-800">
+                    <td class="border px-4 py-4 bg-gray-300">Age</td>
+                    <td class="border px-4 py-4 bg-gray-300">Life Stage</td>
+                    <td class="border px-4 py-4 bg-gray-300">Description {NEED DESCRIPTIONS}</td>
+                </tr>
+                <tr>
+                    <td class="border px-4 py-4">&#60;20</td>
+                    <td class="border px-4 py-4">Lover</td>
                     <td class="border px-4 py-4"></td>
+                </tr>
+                <tr>
+                    <td class="border px-4 py-4">20s - 30s</td>
+                    <td class="border px-4 py-4">Warrior</td>
+                    <td class="border px-4 py-4"></td>
+                </tr>
+                <tr>
+                    <td class="border px-4 py-4">40s - 50s</td>
+                    <td class="border px-4 py-4">King</td>
+                    <td class="border px-4 py-4"></td>
+                </tr>
+                <tr>
+                    <td class="border px-4 py-4">60s - 70+</td>
+                    <td class="border px-4 py-4">Sage</td>
                     <td class="border px-4 py-4"></td>
                 </tr>
             </table>
