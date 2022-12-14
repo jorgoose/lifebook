@@ -5,15 +5,12 @@ $SHELL
 
 echo "Deployment started ..."
 
-# Composer update
-composer update
-
 # Enter maintenance mode or return true
 # if already is in maintenance mode
 (php artisan down) || true
 
 # Pull the latest version of the app
-git pull origin production
+git pull origin main
 
 # Install composer dependencies
 composer install --no-dev --no-interaction --prefer-dist --optimize-autoloader
