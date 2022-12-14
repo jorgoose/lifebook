@@ -5,6 +5,9 @@ $SHELL
 
 echo "Deployment started ..."
 
+# Composer update
+composer update
+
 # Enter maintenance mode or return true
 # if already is in maintenance mode
 (php artisan down) || true
