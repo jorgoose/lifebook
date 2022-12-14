@@ -28,7 +28,7 @@ npm install
 npm run build
 
 # Compile npm assets
-npm run prod
+npm run dev
 
 # Run database migrations
 php artisan migrate --force
