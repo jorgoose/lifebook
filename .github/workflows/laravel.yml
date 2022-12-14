@@ -18,12 +18,12 @@ jobs:
       uses: ngocquyhoang/laravel-deploy@laravel-custom-port
       with:
         # Deploy user
-        user: ${{ secrets.SSH_USER }}
+        user: ${{ secrets.SSH_USERNAME }}
         # Deploy host
         host: ${{ secrets.HOST }}
         # Path source on server
         path: /var/www/laravel
         # Deploy owner
-        owner: ${{ secrets.SSH_USER }}
+        owner: ${{ secrets.SSH_USERNAME }}
       env:
         DEPLOY_KEY: ${{ secrets.SSH_PRIVATE_KEY }}
