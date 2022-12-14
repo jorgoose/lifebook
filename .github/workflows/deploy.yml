@@ -1,26 +1,32 @@
-name: Deploy Laravel Application
+name: Build Laravel application
 
-# Trigger the workflow on push and
-# pull request events on the production branch
 on:
   push:
     branches:
       - main
-  pull_request:
-    branches:
-      - main
 
-# Authenticate to the the server via ssh
-# and run our deployment script
 jobs:
-  deploy:
+  build:
+    name: Build Laravel Application
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
-      - name: Deploy to server
-        uses: appleboy/ssh-action@master
-        with:
-          host: ${{ secrets.HOST }}
-          username: ${{ secrets.SSH_USERNAME }}
-          key: ${{ secrets.SSH_PRIVATE_KEY }}
-          script: "cd /var/www/laravel && ./.scripts/deploy.sh"
+    - name: Checkout code
+      uses: actions/checkout@v2
+    - name: SSH into remote server
+      uses: actions/ssh-action@v1
+      with:
+        host: ${{ secrets.HOST }}
+        username: ${{ secrets.SSH_USERNAME }}
+        key: ${{ secrets.SSH_PRIVATE_KEY }}
+    - name: Build Laravel application
+      run: |
+        cd var/www/laravel
+        composer install
+        npm install
+        npm run build
+    - name: Run Laravel application
+      run: |
+        cd var/www/laravel
+        npm run dev
+        # php artisan serve --port=80
+        exit 0
