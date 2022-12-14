@@ -1,5 +1,8 @@
 set -e
 
+cd var/www/laravel
+$SHELL
+
 echo "Deployment started ..."
 
 # Enter maintenance mode or return true
