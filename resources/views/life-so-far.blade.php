@@ -8,9 +8,6 @@
 
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tailwindcss/dist/tailwind.min.css">
 
-        <link rel="stylesheet" href="{{ mix('css/app.css') }}">
-
-
     </head>
     <body class="antialiased">
         <nav class="bg-gray-800 py-4 px-8">
